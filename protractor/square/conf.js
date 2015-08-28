@@ -30,7 +30,6 @@ exports.config = {
   rootElement: 'html',
   framework: 'jasmine2',
   baseUrl: 'http://newjersey.healthrepublic.prod.fuwt.net/',
-  // baseUrl: 'https://limiteduat:uat@newjersey-uat.healthrepublic.us/',
   // baseUrl: 'http://django1-newjersey.healthrepublic.prod.fuwt.net/',
   multiCapabilities: [
       {browserName: 'chrome'},

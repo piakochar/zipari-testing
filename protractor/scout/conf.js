@@ -268,7 +268,6 @@ exports.config = {
   // 'primary-care-spec.js', 'badge-filter-spec.js'],
   rootElement: '#zp-scout',
   framework: 'jasmine2',
-  // baseUrl: 'https://limiteduat:uat@newjersey-uat.healthrepublic.us/',
   // baseUrl: 'http://django2-newjersey.healthrepublic.prod.fuwt.net/',
   baseUrl: 'http://newjersey.healthrepublic.prod.fuwt.net/',
   multiCapabilities: [
