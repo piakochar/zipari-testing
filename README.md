@@ -1,14 +1,8 @@
-This contains tests for zipari projects.
-To run these tests:
-	1) Start a selenium session (with the command 'webdriver-manager start')
-	2) Move into the directory containing the config file you would like to run
-	   (for example, to run any scout tests, you should be in the /protractor/scout file.)
-	3) In the specs section of the config file you are running, specify which spec files
-	   you would like to run. Also specify how many browsers (and of which type) you would like to run by adding browsers 
-	   to the multiCapabilities section.
-	4) Run the command 'protractor conf.js'. Allow the browsers to run, and avoid interfering
-	   with them or running any other processes on your machine while they are running, as this
-	   may slow down or otherwise impede the tests.
+This repository contains tests for zipari projects. To run these tests:
+1. Start a selenium session (with the command 'webdriver-manager start')
+2. Move into the directory containing the config file you would like to run (for example, to run any scout tests, you should be in the /protractor/scout file.)
+3. In the specs section of the config file you are running, specify which spec files you would like to run. Also specify how many browsers (and of which type) you would like to run by adding browsers to the multiCapabilities section.
+4. Run the command 'protractor conf.js'. Allow the browsers to run, and avoid interfering with them or running any other processes on your machine while they are running, as this may slow down or otherwise impede the tests.
 
 Scout:
 	Notes:
