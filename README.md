@@ -7,7 +7,7 @@ This repository contains tests for zipari projects.
 3. In the specs section of the config file you are running, specify which spec files you would like to run. Also specify how many browsers (and of which type) you would like to run by adding browsers to the multiCapabilities section.
 4. Run the command 'protractor conf.js'. Allow the browsers to run, and avoid interfering with them or running any other processes on your machine while they are running, as this may slow down or otherwise impede the tests.
 
-####Scout Notes:
+#####Scout Notes:
   1. With regard to tests that involve choosing doctors/facilities from the search results page, only the first few results are present when the page first loads, so it is either necessary to scroll down in order to access later doctors/facilities, or to choose results that within the first 9 or so that appear on the page. 
   2. Must call helper.findDoctor() before trying to search for anything in order to reach the search page. This is because simply going to the url https://newjersey.healthrepublic.us/providersearch/ redirects to the gateway page.
   3. To run login-spec.js:
